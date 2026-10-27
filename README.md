@@ -1,1 +1,1 @@
-Child theme based ton Hummingbird for Prestashop 9.2
+Child theme based on Hummingbird for Prestashop 9.2
