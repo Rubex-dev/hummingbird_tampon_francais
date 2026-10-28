@@ -122,15 +122,18 @@
 /* Footer */
 .footer__main {
     background: var(--bs-dark-blue);
-    color: var(--bs-link-color-rgb) !important;
+    color: var(--bs-white) !important;
     padding-block: 1.5rem;
 }
-#footer_customeraccount_title a, #footer_contactinfo_title {
+#footer_customeraccount_title a, #footer_contactinfo_title, #footer_title_1, #footer_title_2 {
     color : #8dabd1 ;
 }
 
-.ps-contactinfo{
-    color : #212529 ;
+.ps-contactinfo, .footer a {
+    color: var(--bs-white) ;
+}
+.footer a:hover {
+    color : #8dabd1 ;
 }
 /* Footer */
 
