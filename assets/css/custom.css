@@ -24,6 +24,8 @@
     --bs-gray-900: #212529;
     --bs-primary: #ce5c30;
     --bs-secondary: #6c757d;
+    --bs-dark-blue: #5c6a81;
+    --bs-light-blue: #8dabd1;
     --bs-success: #188251;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
@@ -117,6 +119,20 @@
     --bs-form-invalid-color: #ff4657;
     --bs-form-invalid-border-color: #ff4657;
 }
+/* Footer */
+.footer__main {
+    background: var(--bs-dark-blue);
+    color: var(--bs-link-color-rgb) !important;
+    padding-block: 1.5rem;
+}
+#footer_customeraccount_title a, #footer_contactinfo_title {
+    color : #8dabd1 ;
+}
+
+.ps-contactinfo{
+    color : #212529 ;
+}
+/* Footer */
 
 .btn-primary {
     --bs-btn-bg: #ce5c30;
@@ -153,6 +169,6 @@ a {
 
 @media (min-width: 992px) {
   .layout-full-width .products {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
   }
 }
