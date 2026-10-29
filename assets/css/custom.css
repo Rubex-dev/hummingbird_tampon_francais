@@ -119,6 +119,12 @@
     --bs-form-invalid-color: #ff4657;
     --bs-form-invalid-border-color: #ff4657;
 }
+svg g path {
+    fill: var(--bs-dark-blue) !important;
+}
+.text-primary-emphasis {
+    color : var(--bs-light-blue) !important;
+}
 /* Footer */
 .footer__main {
     background: var(--bs-dark-blue);
@@ -128,7 +134,6 @@
 #footer_customeraccount_title a, #footer_contactinfo_title, #footer_title_1, #footer_title_2 {
     color : #8dabd1 ;
 }
-
 .ps-contactinfo, .footer a {
     color: var(--bs-white) ;
 }
@@ -137,7 +142,9 @@
 }
 /* Footer */
 
-.btn-primary {
+/* Buttons and badges */
+.btn-primary, .btn-outline-primary, .product-line__item-discount, .product-line__item-discount--percentage  {
+    --bs-btn-color: #ffffff;
     --bs-btn-bg: #ce5c30;
     --bs-btn-border-color: #ce5c30;
     --bs-btn-hover-color: #fff;
@@ -158,6 +165,15 @@
     color: var(--bs-white) !important;
     font-weight:bold !important;
 }
+.btn, .module-products__buttons a, .product-miniature__actions a {
+    color : #ffffff;
+}
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background: #ea6239 !important;
+}
+
+/* Buttons and badges */
 
 a {
     color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
