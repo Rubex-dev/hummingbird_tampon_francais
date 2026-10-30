@@ -172,6 +172,10 @@ svg g path {
     --bs-bg-opacity: 1;
     background: #ea6239 !important;
 }
+#pp_customize_design_btn {
+    background-color:#5c6a81;
+    border-color:#5c6a81;
+}
 
 /* Buttons and badges */
 
